@@ -4,7 +4,7 @@ Simple utility functions for parsing and creating query strings for URLs.
 
 ## Usage
 
-Basic usage of the store:
+Basic usage of the functions:
 ```
 import * as QueryUtils from '@trt2/simple-url-queryutils';
 
