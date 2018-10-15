@@ -11,7 +11,7 @@ import * as QueryUtils from '@trt2/simple-url-queryutils';
 let res = QueryUtils.stringifyQuery({'val1': 123, 'val2': 'asd', boolval: true}, false);
 // res = "val1=123&val2=asd&boolval=true
 
-res = QueryUtils.stringifyQuery({'val': 1, 'val': 2, 'val': 3});
+res = QueryUtils.stringifyQuery({'val': [1, 2, 3]});
 // res = "val=1&val=2&val=3"
 
 res = QueryUtils.parseQueryArray("val1=123&val2=asd&boolval=true);
